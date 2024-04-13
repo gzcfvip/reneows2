@@ -16,9 +16,9 @@ const intervalInseconds = process.env.TIME || 120;  // 自动访问间隔时间�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  //哪吒三个变量不全不运行，
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  // 哪吒端口为{443,8443,2096,2087,2083,2053}其中一个端口之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'LzZkEzCvMCnfNVMlg0';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'am4.jpnc.eu.org';      
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"1e54425fee425a80e4eff85afb722991","TunnelSecret":"qOaSP3nQM70+mrih6ArsmJO/adXxnDdH1gL5cWy5zqM=","TunnelID":"f72f48c3-303d-472d-bde5-7b45a78972b6"}';
-const CFIP = process.env.CFIP || '199.15.76.35';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.bb.x10.bz';      
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"4790f1495355843f078e9b1495ca926c","TunnelSecret":"Iv1K6/ElfhzianPUl/O9h4+NAMXV2kvef+eTcmCToOI=","TunnelID":"69b05b3a-4041-4f02-8c44-1fb9993fbf64"}';
+const CFIP = process.env.CFIP || '45.67.215.106';
 const NAME = process.env.NAME || 'Vls';
 const port = process.env.SERVER_PORT || process.env.PORT || 3000; // 节点订阅端口，若无法订阅请手动改为分配的端口
 const ArgoPort = process.env.ARGO_PORT || 8001; //argo端口，若使用固定隧道token需改回8080或在CF后台更改隧道端口与这里对应
